@@ -9,5 +9,5 @@ sock.setsockopt(socket.SOL_SOCKET, socket.SO_BROADCAST, 1)
 message = "DISCOVERY: Who is online?"
 sock.sendto(message.encode(), (BROADCAST_IP, PORT))
 
-print("[BROADCASTER] Message sent ควยยย")
+print("[BROADCASTER] Message sent")
 sock.close()
